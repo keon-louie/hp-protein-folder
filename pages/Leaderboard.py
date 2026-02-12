@@ -13,6 +13,9 @@ from utils.global_constants import BENCHMARK_SEQUENCES
 from utils.st_helpers import fix_dropdown_cursor, centered_caption, centered_text
 from utils.plotting import plot_polymer
 
+st.set_page_config(page_title="Leaderboard - Protein Folding Simulator",
+                   layout="wide")
+
 if 'cur_page' not in st.session_state:
     st.session_state['cur_page'] = 0
 

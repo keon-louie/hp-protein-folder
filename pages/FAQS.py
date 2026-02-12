@@ -3,6 +3,9 @@ import streamlit as st
 from utils.st_helpers import (centered_caption, centered_subheader,
                               centered_text, centered_title)
 
+st.set_page_config(page_title="FAQS - Protein Folding Simulator",
+                   layout="wide")
+
 centered_title("(Not-so) Frequently Asked Questions")
 
 st.write("> What is a genetic algorithm?")

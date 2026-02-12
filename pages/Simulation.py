@@ -16,8 +16,7 @@ from utils.stats_helpers import get_energy_statistics
 from data.data_helpers import save_score
 
 st.set_page_config(
-    page_title="Simulation Initialization | BTGE",
-    page_icon="images/home_screen/lizard_green.jpg",
+    page_title="Simulation - Protein Folding Simulator",
     layout="wide")
 
 if 'sim_started' not in st.session_state:

@@ -4,6 +4,9 @@ from utils.st_helpers import (centered_caption, centered_subheader,
                               centered_text, centered_title, fix_layout,
                               remove_top_margin)
 
+st.set_page_config(page_title="Protein Folding Simulator",
+                   layout="wide")
+
 def main():
     centered_title("🧬 Protein Folding in a 2D Lattice")
 

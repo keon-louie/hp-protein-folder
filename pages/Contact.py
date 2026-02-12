@@ -2,6 +2,9 @@ import streamlit as st
 
 from utils.st_helpers import centered_subheader, centered_caption
 
+st.set_page_config(page_title="Contact - Protein Folding Simulator",
+                   layout="wide")
+
 centered_subheader("Interested in learning more about this project?")
 
 st.divider()

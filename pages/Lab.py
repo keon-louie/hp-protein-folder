@@ -9,8 +9,7 @@ from utils.physics import calculate_energy_vectorized
 from utils.plotting import visualize_chain_plotly, plot_polymer
 from utils.st_helpers import centered_subheader, centered_text, centered_title
 
-st.set_page_config(page_title="The Lab - BTGE",
-                   page_icon = "🧪",
+st.set_page_config(page_title="The Lab - Protein Folding Simulator",
                    layout="wide")
 
 if 'length_lab' not in st.session_state:

@@ -2,6 +2,8 @@ import streamlit as st
 
 from utils.st_helpers import centered_subheader, centered_title, centered_caption
 
+st.set_page_config(page_title="Instructions - Protein Folding Simulator",
+                   layout="wide")
 
 def main():
     centered_title("How to Use the Simulator")
